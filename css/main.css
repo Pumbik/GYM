@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width: 100%;
+    background: #000;
+    display: flex;
+}
+
+.header_logo {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 800;
+    cursor: pointer;
+    margin-left: 12%;
+    margin-top: 55px;
+}
