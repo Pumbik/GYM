@@ -12,25 +12,118 @@
 </head>
 
 <body>
-    <header>
-        <div class="header_logo">
-            <p>Steel<strong>House</strong>GYM</p>
-        </div>
-        <nav>
-            <div class="topnav" id="myTopnav">
-                <a href="#">ГЛАВНАЯ</a>
-                <a href="#">О ЗАЛЕ</a>
-                <a href="#">ГАЛЕРЕЯ</a>
-                <a href="#">АБОНЕМЕНТЫ</a>
-                <a href="#">ТРЕНЕРА</a>
-                <a href="#">КОНТАКТЫ</a>
-                <a href="" class="icon" id='menu'>&#9776;</a>
+    <header class="main-header">
+        <div class="container">
+            <nav class="main-navigator">
+                <ul class="topnav" id="myTopnav">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">О зале</a></li>
+                    <li><a href="#">Галерея</a></li>
+                    <li><a href="#">Абонементы</a></li>
+                    <li><a href="#">Тренера</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <!--<li><a href="" class="icon" id='menu'>&#9776;</a>-->
+                </ul>
+            </nav>
+            <div class="user-block">
+                <a href="#" class="login">Вход</a>
             </div>
-        </nav>
+        </div>
     </header>
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <main class="container">
+        <div class="main-logo">
+            <img src="#" alt="logo">
+        </div>
+        <section class="features">
+            <div class="features-item">
+                <h2 class="features-name">Тренажерный зал</h2>
+                <p>Зал оборудован современными тренажерами профессионального уровня.</p>
+            </div>
+            <div class="features-item">
+                <h2 class="features-name">Кардио зона</h2>
+                <p>К вашим услугам современное оборудование: 4 беговых дорожки, 2 орбитрека и велотренажер.</p>
+            </div>
+            <div class="features-item">
+                <h2 class="features-name">Дополнительные услуги</h2>
+                <p>К вашим услугам солярий, массаж, гидромассаж и фитнес-бар.</p>
+            </div>
+        </section>
+        <div class="index-content">
+            <div class="index-content-left">
+                <h2 class="index-content-title">Новости</h2>
+                <ul class="new-preview">
+                    <li>
+                        <p>Самая сексуальная украинская ведущая выиграла Кубок по бодибилдингу</p>
+                        <time datetime="2018-06-02">02 июня</time>
+                    </li>
+                    <li>
+                        <p>"Железный Арни" проведал украинца Ломаченко в больнице</p>
+                        <time datetime="2018-06-05">05 июня</time>
+                    </li>
+                </ul>
+                <a href="#" class="btn">Все новости</a>
+            </div>
+            <div class="index-content-right">
+                <h2 class="index-content-title">Галерея</h2>
+                <div class="gallery">
+                    <figure class="galerry-content">
+                        <img src="#" alt="Foto">
+                    </figure>
+                    <button class="bnt gallery-prev" type="button">Назад</button>
+                    <button class="bnt gallery-next" type="button">Вперед</button>
+                </div>
+            </div>
+        </div>
+        <div class="index-content">
+            <div class="index-content-left">
+                <h2 class="index-content-title">Контактная информация</h2>
+                <p>
+                    г. Киев<br> ул. Какаято 5 <br> телефон: 050-555-55-55
+                </p>
+                <p>
+                    Время работы:<br> пн. - пт. с 07:00 до 22:00<br> сб. - вс. с 08:00 до 22:00
+                </p>
+            </div>
+            <div class="index-content-right">
+                <h2 class="index-content-title">Запись</h2>
+                <form class="app-form" action="#" method="POST">
+                    <p>Введите Ваши контакты и мы Вам перезвоним в ближайшее время</p>
+                    <p>
+                        <label for="name">Ваше имя</label>
+                        <input id="name" type="text" name="name">
+                    </p>
+                    <p>
+                        <label for="phone">Ваш телефон</label>
+                        <input id="phone" type="text" name="phone">
+                    </p>
+                    <button class="btn" type="submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-contact">
+                <p>
+                    г. Киев
+                    <br> ул. Какаято 5
+                    <br> телефон: 050-555-55-55
+                </p>
+            </div>
+            <div class="footer-social">
+                <p>Давай дружить!</p>
+                <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+                <a href="#" class="social-btn social-btn-inst">Истаграм</a>
+                <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+            </div>
+            <div class="footer-copyright">
+                <p>Разработка ла-ла-ла</p>
+                <p>Все права защищены &#169</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
